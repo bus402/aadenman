@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "composite": true
+  },
+  "include": ["src/**/*"],
+  "references": [
+    { "path": "../../packages/orderly-connector" },
+    { "path": "../../packages/tick" },
+    { "path": "../../packages/execution" },
+    { "path": "../../packages/agent" }
+  ]
+}

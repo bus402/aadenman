@@ -1,0 +1,24 @@
+{
+  "name": "aadenman",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LLM-based multi-agent trading bot for Orderly perpetual futures",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "tsc -b --clean",
+    "momentum": "node apps/momentum-agent/dist/index.js",
+    "dev:momentum": "tsx apps/momentum-agent/src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

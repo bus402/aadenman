@@ -1,0 +1,20 @@
+{
+  "name": "@aadenman/momentum-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@aadenman/orderly-connector": "workspace:*",
+    "@aadenman/memory": "workspace:*",
+    "@aadenman/tick": "workspace:*",
+    "@aadenman/execution": "workspace:*",
+    "@aadenman/agent": "workspace:*",
+    "@aadenman/metrics": "workspace:*",
+    "dotenv": "^16.3.1"
+  }
+}

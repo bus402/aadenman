@@ -1,0 +1,14 @@
+{
+  "name": "@aadenman/execution",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@aadenman/orderly-connector": "workspace:*",
+    "@aadenman/memory": "workspace:*"
+  }
+}

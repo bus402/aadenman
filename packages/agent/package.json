@@ -1,0 +1,16 @@
+{
+  "name": "@aadenman/agent",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@aadenman/memory": "workspace:*",
+    "@aadenman/execution": "workspace:*",
+    "@aadenman/tick": "workspace:*",
+    "@anthropic-ai/sdk": "^0.27.0"
+  }
+}
